@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "youtube-extract-api.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api",
+      "dest": "/youtube-extract-api.js"
+    },
+    {
+      "src": "/api\\?url=(.*)",
+      "dest": "/youtube-extract-api.js?url=$1"
+    }
+  ]
+}

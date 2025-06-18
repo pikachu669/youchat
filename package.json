@@ -1,0 +1,21 @@
+{
+  "name": "youtube-extract-api",
+  "version": "1.0.0",
+  "main": "youtube-extract-api.js",
+  "scripts": {
+    "start": "node youtube-extract-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ytdl-core": "^4.11.1"
+  },
+  "keywords": [
+    "youtube",
+    "api",
+    "express",
+    "vercel"
+  ],
+  "author": "@labani",
+  "license": "MIT"
+}
